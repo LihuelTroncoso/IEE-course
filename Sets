@@ -1,0 +1,9 @@
+vainilla = { "Juan", "Marina", "Tomas", "Paula" }
+chocolate = { "Pedro", "Paula", "Marina" }
+dulceDeLeche = { "Juan", "Julian", "Pedro", "Marina" }
+
+for x in vainilla:
+    if vainilla.issubset(x) and chocolate.issubset(x) and dulceDeLeche.issubset(x):
+        print(x)
+
+input()
